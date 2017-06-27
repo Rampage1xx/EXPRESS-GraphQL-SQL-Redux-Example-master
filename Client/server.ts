@@ -13,3 +13,5 @@ app.use('*', (req, res) => {
 export const server = app.listen(8000, () => {
     console.log('server running on 8000')
 });
+
+console.log('abc')
